@@ -71,7 +71,7 @@ var connectWithRetry = function () {
 
 connectWithRetry();
 
-var port = process.env.SERVER_PORT || 8080;
+var port = process.env.SERVER_PORT || 8008;
 
 app.listen(port, () => {
     console.log('Servidor rodando na porta ' + port);
